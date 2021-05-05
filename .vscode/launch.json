@@ -1,16 +1,60 @@
 {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-      {
-        "name": "fx-dev debug",
-        "type": "firefox",
-        "request": "launch",
-        "reAttach": true,
-        "reloadOnAttach": true,
-        "file": "${fileDirname}/index.html",
-        "preferences": {
-          "security.fileuri.strict_origin_policy": false
+        {
+            "name": "Firefox Debugger",
+            "type": "firefox",
+            "request": "launch",
+            "webRoot": "${workspaceFolder}",
+            "url": "http://localhost:8080/index.html",
+            "pathMappings": [
+                {
+                    "url": "http://localhost",
+                    "path": "/Users/ludovicafranchi/Desktop/Computing-2-Applications/Week 1 - Template for web apps"
+                },
+                {
+                    "url": "http://localhost:80/index.html",
+                    "path": "${workspaceFolder}"
+                }
+            ],
+            "keepProfileChanges": true,
+            "reAttach": true,
+            "firefoxExecutable": "C:/Program Files/Firefox Developer Edition/firefox.exe"
+        },
+        {
+            "name": "Node server",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/app/server.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "name": "Mocha Tests",
+            "type": "firefox",
+            "request": "launch",
+            "reloadOnAttach": true,
+            "file": "${workspaceFolder}/unittests/test.html",
+            "preferences": {
+                "security.fileuri.strict_origin_policy": false
+            },
+            "clearConsoleOnReload": true
+        },
+        {
+            "name": "Launch Index Page",
+            "type": "firefox",
+            "request": "launch",
+            "reloadOnAttach": true,
+            "file": "${workspaceFolder}/app/index.html",
+            "preferences": {
+                "security.fileuri.strict_origin_policy": false
+            }
         }
-      }
     ]
-  }
+
+    
+}
