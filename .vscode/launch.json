@@ -7,7 +7,7 @@
             "request": "launch",
             "reAttach": true,
             "reloadOnAttach": true,
-            "file": "${workspaceFolder}/web-app/static/index.html",
+            "file": "${workspaceFolder}/Week 1 - Template for web apps/web-app/static/index.html",
             "preferences": {
                 "security.fileuri.strict_origin_policy": false
             }
