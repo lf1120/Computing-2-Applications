@@ -16,7 +16,7 @@
                     "path": "/Users/ludovicafranchi/Desktop/Computing-2-Applications/Week 1 - Template for web apps"
                 },
                 {
-                    "url": "http://localhost:80/index.html",
+                    "url": "http://localhost:8080/index.html",
                     "path": "${workspaceFolder}"
                 }
             ],
@@ -28,7 +28,7 @@
             "name": "Node server",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceFolder}/app/server.js",
+            "program": "/Users/ludovicafranchi/Desktop/Computing-2-Applications/Week 1 - Template for web apps/web-app/server.js",
             "skipFiles": [
                 "<node_internals>/**"
             ]
@@ -49,7 +49,7 @@
             "type": "firefox",
             "request": "launch",
             "reloadOnAttach": true,
-            "file": "${workspaceFolder}/app/index.html",
+            "file": "/Users/ludovicafranchi/Desktop/Computing-2-Applications/Week 1 - Template for web apps/web-app/static/index.html",
             "preferences": {
                 "security.fileuri.strict_origin_policy": false
             }
