@@ -1,60 +1,16 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Firefox Debugger",
+            "name": "fx-dev debug",
             "type": "firefox",
             "request": "launch",
-            "webRoot": "${workspaceFolder}",
-            "url": "http://localhost:8080/index.html",
-            "pathMappings": [
-                {
-                    "url": "http://localhost",
-                    "path": "/Users/ludovicafranchi/Desktop/Computing-2-Applications/Week 1 - Template for web apps"
-                },
-                {
-                    "url": "http://localhost:8080/index.html",
-                    "path": "${workspaceFolder}"
-                }
-            ],
-            "keepProfileChanges": true,
             "reAttach": true,
-            "firefoxExecutable": "/Applications/Firefox Developer Edition.app"
-        },
-        {
-            "name": "Node server",
-            "type": "node",
-            "request": "launch",
-            "program": "/Users/ludovicafranchi/Desktop/Computing-2-Applications/Week 1 - Template for web apps/web-app/server.js",
-            "skipFiles": [
-                "<node_internals>/**"
-            ]
-        },
-        {
-            "name": "Mocha Tests",
-            "type": "firefox",
-            "request": "launch",
             "reloadOnAttach": true,
-            "file": "${workspaceFolder}/unittests/test.html",
-            "preferences": {
-                "security.fileuri.strict_origin_policy": false
-            },
-            "clearConsoleOnReload": true
-        },
-        {
-            "name": "Launch Index Page",
-            "type": "firefox",
-            "request": "launch",
-            "reloadOnAttach": true,
-            "file": "/Users/ludovicafranchi/Desktop/Computing-2-Applications/Week 1 - Template for web apps/web-app/static/index.html",
+            "file": "${workspaceFolder}/web-app/static/index.html",
             "preferences": {
                 "security.fileuri.strict_origin_policy": false
             }
         }
     ]
-
-    
 }
