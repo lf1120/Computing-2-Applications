@@ -22,7 +22,7 @@
             ],
             "keepProfileChanges": true,
             "reAttach": true,
-            "firefoxExecutable": "C:/Program Files/Firefox Developer Edition/firefox.exe"
+            "firefoxExecutable": "/Applications/Firefox Developer Edition.app"
         },
         {
             "name": "Node server",
