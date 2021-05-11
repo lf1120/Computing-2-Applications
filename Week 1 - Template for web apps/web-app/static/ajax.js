@@ -8,6 +8,7 @@ Ajax.query = function (requestObj) {
     // return Promise.resolve({
     //     "reply": "It's a fake!"
     // });
+    //commento di prova
 
     const body = JSON.stringify(requestObj);
 
