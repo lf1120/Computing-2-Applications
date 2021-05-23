@@ -40,7 +40,7 @@ describe("Faro Out-shuffle", function () {
         "as the top card of the shuffled deck.",
         [arbitrary_shuffled_deck],
         function (deck) {
-            const faro_shuffled = Deck.faro_out_shuffle(deck)
+            const faro_shuffled = Deck.faro_out_shuffle(deck);
             return Deck.cards_equal(deck[0], faro_shuffled[0]);
         }
     );

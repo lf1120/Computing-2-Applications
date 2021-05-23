@@ -1,4 +1,4 @@
-import FP from "./functional.js";
+//import FP from "./functional.js";
 
 const Deck = Object.create(null);
 
@@ -81,6 +81,7 @@ Deck.decks_equal = (deck_1, deck_2) => (
 Deck.faro_out_shuffle = function (deck) {
     return deck; // Placeholder implementation.
 };
+// write a function the test is completed alreasy. to test use the flask
 
 /**
  * Return a mathematically 'perfect' shuffle of a deck.
