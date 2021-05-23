@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "fast-check": "^2.14.0",
+    "mocha": "^8.3.2"
+  },
+  "name": "week-4-propertybasedtesting",
+  "description": "In the first half of this week, we will explore Property Based Testing (PBT), which is a form of unit testing. We will use two frameworks to assist us in this. The first one is *mocha*, a unit testing framework, which also integrates nicely with vscode. And building on top of this, we will use *fast-check* which allows us to write property based tests.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

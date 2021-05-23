@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fx-dev debug",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "reloadOnAttach": true,
+            "file": "${workspaceFolder}/Week 1 - Template for web apps/web-app/static/index.html",
+            "preferences": {
+                "security.fileuri.strict_origin_policy": false
+            }
+        }
+    ]
+}
